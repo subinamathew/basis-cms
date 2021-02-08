@@ -1,0 +1,37 @@
+{
+  "name": "basis-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Strapi CMS For Basis",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.4.6",
+    "strapi-admin": "3.4.6",
+    "strapi-utils": "3.4.6",
+    "strapi-plugin-content-type-builder": "3.4.6",
+    "strapi-plugin-content-manager": "3.4.6",
+    "strapi-plugin-users-permissions": "3.4.6",
+    "strapi-plugin-email": "3.4.6",
+    "strapi-plugin-upload": "3.4.6",
+    "strapi-connector-bookshelf": "3.4.6",
+    "knex": "<0.20.0",
+    "sqlite3": "5.0.0"
+  },
+  "author": {
+    "name": "A CMS developer"
+  },
+  "strapi": {
+    "uuid": "2d8ce457-d251-418e-9dde-6356c07f1966"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
