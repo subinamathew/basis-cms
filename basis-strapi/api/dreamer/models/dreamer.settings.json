@@ -11,19 +11,19 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Name": {
+    "dreamer": {
       "type": "string",
       "required": true
     },
-    "Note": {
+    "notes": {
       "type": "string",
       "required": true
     },
-    "Detail": {
+    "details": {
       "type": "text",
       "required": true
     },
-    "Image": {
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
