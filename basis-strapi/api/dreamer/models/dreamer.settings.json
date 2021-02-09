@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "dreamers",
+  "info": {
+    "name": "Dreamer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Note": {
+      "type": "string",
+      "required": true
+    },
+    "Detail": {
+      "type": "text",
+      "required": true
+    },
+    "Image": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

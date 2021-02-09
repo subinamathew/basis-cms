@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dreamer",
+      "handler": "dreamer.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dreamer",
+      "handler": "dreamer.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dreamer",
+      "handler": "dreamer.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
