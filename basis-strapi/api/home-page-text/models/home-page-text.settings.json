@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "Home Page Single",
+  "info": {
+    "name": "Home Page Text"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Heading": {
+      "type": "string",
+      "required": true,
+      "default": "Welcome!"
+    },
+    "Subheading": {
+      "type": "string",
+      "default": "We're so glad you're here.",
+      "required": true
+    },
+    "Note": {
+      "type": "richtext",
+      "default": "Our Basis Skills Development and Learning Hub is here to support you in your education, and to help you connect with future educational opportunities and career possibilities. We are here to help you, at no cost to you. More Learning Pathways will be developed, but we will begin with our Digital Literacy eLearning Pathway, because we are going to be using online tools for teaching, and because becoming computer-savvy is going to help you for the rest of your life.",
+      "required": true
+    }
+  }
+}
