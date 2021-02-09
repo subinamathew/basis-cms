@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "navigations",
+  "info": {
+    "name": "Navigation"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "regex": "(http)s?\\:\\/\\/"
+    },
+    "icon": {
+      "type": "string",
+      "default": "$vuetify.icons.school",
+      "required": true
+    },
+    "color": {
+      "type": "string",
+      "default": "#ff5800",
+      "required": true
+    }
+  }
+}
