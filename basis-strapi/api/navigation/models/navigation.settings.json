@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "Home",
+  "collectionName": "navigations",
   "info": {
-    "name": "Navigation-Menu",
-    "description": ""
+    "name": "Navigation"
   },
   "options": {
     "increments": true,
@@ -11,23 +10,23 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Title": {
+    "NavTitle": {
       "type": "string",
       "required": true
     },
-    "URL": {
+    "NavURL": {
       "type": "string",
-      "required": true,
-      "regex": "https?\\:\\/\\/"
+      "regex": "https?\\:\\/\\/",
+      "required": true
     },
-    "Icon": {
+    "NavIcon": {
       "type": "string",
       "default": "$vuetify.icons.school",
       "required": true
     },
-    "Colour": {
+    "NavColor": {
       "type": "string",
-      "default": "#ff5800",
+      "default": "#ea6a20",
       "required": true
     }
   }
