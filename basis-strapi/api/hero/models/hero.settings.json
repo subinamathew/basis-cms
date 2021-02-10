@@ -10,12 +10,12 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Note": {
+    "notice": {
       "type": "string",
       "required": true,
       "default": "Basis Skills Development & Learning Hub"
     },
-    "Image": {
+    "media": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
