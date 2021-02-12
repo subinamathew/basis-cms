@@ -2,15 +2,15 @@ FROM strapi/base
 
 WORKDIR /srv/app
 
-COPY ./package.json ./
-COPY ./yarn.lock ./
-COPY ./favicon.ico ./
+COPY basis-strapi/package.json ./
+COPY basis-strapi/yarn.lock ./
+COPY basis-strapi/favicon.ico ./
 
 RUN yarn install
 
-COPY api /srv/app/api/
+COPY basis-strapi/api /srv/app/api/
 
-COPY config /srv/app/config/
+COPY basis-strapi/config /srv/app/config/
 
 RUN mkdir -p /srv/app/extensions
 
